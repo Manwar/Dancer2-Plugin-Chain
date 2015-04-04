@@ -1,6 +1,6 @@
 package Dancer2::Plugin::Chain::Router;
 
-$Dancer2::Plugin::Chain::Router::VERSION   = '0.01';
+$Dancer2::Plugin::Chain::Router::VERSION   = '0.02';
 $Dancer2::Plugin::Chain::Router::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Dancer2::Plugin::Chain::Router - Helper package for Dancer2::Plugin::Chain.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -116,6 +116,10 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 =head1 REPOSITORY
 
 L<https://github.com/Manwar/Dancer2-Plugin-Chain>
+
+=head1 ACKNOWLEDGEMENTS
+
+Inspired by the package L<Dancer::Plugin::Chain> (Yanick Champoux <yanick@babyl.dyndns.org>).
 
 =head1 SEE ALSO
 

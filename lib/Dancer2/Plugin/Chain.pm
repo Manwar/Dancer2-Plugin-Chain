@@ -1,6 +1,6 @@
 package Dancer2::Plugin::Chain;
 
-$Dancer2::Plugin::Chain::VERSION   = '0.01';
+$Dancer2::Plugin::Chain::VERSION   = '0.02';
 $Dancer2::Plugin::Chain::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Dancer2::Plugin::Chain - Dancer2 add-on for route chaining.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -25,8 +25,6 @@ use Dancer2::Plugin::Chain::Router;
 
 A very simple plugin for L<Dancer2> for chaining routes.I needed this for my other
 project (in-progress) available on L<github|https://github.com/Manwar/Dancer2-Cookbook>.
-
-This work is inspired by L<Dancer::Plugin::Chain>.
 
 =head1 SYNOPSIS
 
@@ -72,6 +70,10 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 =head1 REPOSITORY
 
 L<https://github.com/Manwar/Dancer2-Plugin-Chain>
+
+=head1 ACKNOWLEDGEMENTS
+
+Inspired by the package L<Dancer::Plugin::Chain> (Yanick Champoux <yanick@babyl.dyndns.org>).
 
 =head1 SEE ALSO
 
