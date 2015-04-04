@@ -1,0 +1,11 @@
+Changes
+lib/Dancer2/Plugin/Chain.pm
+lib/Dancer2/Plugin/Chain/Router.pm
+Makefile.PL
+LICENSE
+MANIFEST
+MANIFEST.SKIP
+README
+t/00-load.t
+t/manifest.t
+t/pod.t
