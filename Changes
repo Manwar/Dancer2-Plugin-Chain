@@ -1,5 +1,8 @@
 Revision history for Dancer2::Plugin::Chain
 
+0.03  Sun Apr 05 03:10:00 2015
+      - Made the minimum requirement of Dancer2 and Dancer2::Plugin to be v0.159002.
+
 0.02  Sat Apr 04 12:50:00 2015
       - Added section "ACKNOWLEDGEMENTS" to the pod document.
 
