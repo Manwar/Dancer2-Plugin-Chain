@@ -18,6 +18,8 @@ WriteMakefile(
     },
     BUILD_REQUIRES   => {
         'Test::More' => 0,
+        'Plack'      => '1.0029', # OO-style Plack::Test
+        'HTTP::Request::Common' => 0,
     },
     PREREQ_PM => {
         'Dancer2'          => '0.159002',
