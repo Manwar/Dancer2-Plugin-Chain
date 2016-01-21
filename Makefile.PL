@@ -17,7 +17,7 @@ WriteMakefile(
         'ExtUtils::MakeMaker' => 0,
     },
     BUILD_REQUIRES   => {
-        'Test::More' => 0,
+        'Test::More' => '0.94', # subtest
         'Plack'      => '1.0029', # OO-style Plack::Test
         'HTTP::Request::Common' => 0,
     },
