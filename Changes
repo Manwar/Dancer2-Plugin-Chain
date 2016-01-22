@@ -1,5 +1,8 @@
 Revision history for Dancer2::Plugin::Chain
 
+0.04  Fri Jan 22 12:00:00 2016
+      - Merged in GitHub PR #1, thanks to SysPete.
+
 0.03  Sun Apr 05 03:10:00 2015
       - Made the minimum requirement of Dancer2 and Dancer2::Plugin to be v0.159002.
 

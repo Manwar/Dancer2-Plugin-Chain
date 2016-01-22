@@ -11,21 +11,20 @@ WriteMakefile(
     VERSION_FROM       => 'lib/Dancer2/Plugin/Chain.pm',
     ABSTRACT_FROM      => 'lib/Dancer2/Plugin/Chain.pm',
     LICENSE            => 'artistic_2',
-    PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
     },
     BUILD_REQUIRES   => {
-        'Test::More' => '0.94', # subtest
+        'Test::More' => '0.94',   # subtest
         'Plack'      => '1.0029', # OO-style Plack::Test
         'HTTP::Request::Common' => 0,
     },
     PREREQ_PM => {
         'Dancer2'          => '0.159002',
         'Dancer2::Plugin'  => '0.159002',
-        'Moo'              => 0,
-        'namespace::clean' => 0,
+        'Moo'              => '2.000000',
+        'namespace::clean' => '0.24',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Dancer2-Plugin-Chain-*' },
@@ -34,8 +33,8 @@ WriteMakefile(
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/Dancer2-Plugin-Chain.git',
-                web  => 'https://github.com/Manwar/Dancer2-Plugin-Chain',
+                url  => 'https://github.com/manwar/Dancer2-Plugin-Chain.git',
+                web  => 'https://github.com/manwar/Dancer2-Plugin-Chain',
             },
         }})
      : ()
