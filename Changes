@@ -1,5 +1,9 @@
 Revision history for Dancer2::Plugin::Chain
 
+0.06  Tue Mar 22 10:45:00 2016
+      - Merged in GitHub PR #2, thanks to SysPete.
+      - Updated copyright year information in the pod document.
+
 0.05  Sat Jan 23 08:00:00 2016
       - Fixed inconsistent version issue (CPANTS).
 

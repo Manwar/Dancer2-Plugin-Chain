@@ -1,6 +1,6 @@
 package Dancer2::Plugin::Chain;
 
-$Dancer2::Plugin::Chain::VERSION   = '0.05';
+$Dancer2::Plugin::Chain::VERSION   = '0.06';
 $Dancer2::Plugin::Chain::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Dancer2::Plugin::Chain - Dancer2 add-on for route chaining.
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =cut
 
@@ -115,7 +115,7 @@ L<http://search.cpan.org/dist/Dancer2-Plugin-Chain/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2015 Mohammad S Anwar.
+Copyright (C) 2015 - 2016 Mohammad S Anwar.
 
 This program  is  free software; you can redistribute it and / or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain  a copy of the full
