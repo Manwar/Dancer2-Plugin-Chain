@@ -30,6 +30,10 @@ WriteMakefile(
     clean => { FILES => 'Dancer2-Plugin-Chain-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
+        provides    => {
+            'Dancer2::Plugin::Chain'         => { file => 'lib/Dancer2/Plugin/Chain.pm',        version => '0.07' },
+            'Dancer2::Plugin::Chain::Router' => { file => 'lib/Dancer2/Plugin/Chain/Router.pm', version => '0.07' },
+        },
         resources => {
             repository => {
                 type => 'git',
