@@ -1,5 +1,8 @@
 Revision history for Dancer2::Plugin::Chain
 
+0.08  Sat Sep 17 07:25:00 2016
+      - Added unit test scripts (t/meta-json.t and t/meta-yml.t).
+
 0.07  Tue Sep 06 11:35:00 2016
       - Added key 'provides' to the Makefile.PL script.
 
